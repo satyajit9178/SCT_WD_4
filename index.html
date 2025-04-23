@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaskFlow</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>TaskFlow</h1>
+      <p>Organize your day, boost your productivity</p>
+    </div>
+
+    <div class="task-input">
+      <input class="js-input" type="text" placeholder="What needs to be done?" /><span><input class="js-time" type="date"></span>
+      <button onclick="addTodo();">Add Task</button>
+    </div>
+
+    <div class="task-list js-task-list">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
