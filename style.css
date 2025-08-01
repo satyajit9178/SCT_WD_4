@@ -190,6 +190,11 @@ body {
   .edit-btn{
     padding: 2px;
     font-size: 0.6rem;
+  } 
+  .js-time{
+    background-color: #d02a15;
+    width: 100%;
+    min-width: 100%;
   }
 }
 
