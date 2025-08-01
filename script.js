@@ -43,7 +43,7 @@ function updateTodo(){
           <div class="task-info">
             <label class="todo-name ${completed ? 'hide':''}">${name}</label>
 
-            <div>
+            <div class="rap">
               <span class="colored ${completed ? 'hide1':''}">${dueDate}</span>
               <span class="colored1 ${completed ? 'hide1':''}">${dueTime}</span>
             </div>
